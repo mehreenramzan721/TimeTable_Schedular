@@ -1,0 +1,14 @@
+[ROOMS]
+R1|Room 101|false
+R2|Lab 201|true
+R3|Room 102|false
+
+[ASSIGNMENTS]
+Data Structures|Dr. Ahmad|Engr. Bilal|SP25-BCS|A|4|true
+pf|sir raza||fall24-se|B|3|false
+oop|miss sana|miss razia|fall25-bcs|B|3|true
+dld|sir raza|sir bialla|sp25-ai|B|3|true
+
+[REPEATERS]
+ali|Fall24-se|B|oop
+

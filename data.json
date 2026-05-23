@@ -1,0 +1,104 @@
+{
+  "teachers": [
+    {
+      "id": "T1",
+      "name": "Dr. Smith"
+    },
+    {
+      "id": "T2",
+      "name": "Prof. Johnson"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "S1",
+      "name": "Data Structures",
+      "creditHours": 4,
+      "requiresLab": true
+    },
+    {
+      "id": "S2",
+      "name": "Algorithms",
+      "creditHours": 3,
+      "requiresLab": false
+    }
+  ],
+  "rooms": [
+    {
+      "id": "R1",
+      "name": "Room 101",
+      "isLab": false
+    },
+    {
+      "id": "R2",
+      "name": "Lab 201",
+      "isLab": true
+    }
+  ],
+  "batches": [
+    {
+      "id": "B1",
+      "name": "CS-2024",
+      "sections": [
+        {
+          "id": "SecA",
+          "name": "Section A"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "S1",
+          "name": "Data Structures",
+          "creditHours": 4,
+          "requiresLab": true
+        },
+        {
+          "id": "S2",
+          "name": "Algorithms",
+          "creditHours": 3,
+          "requiresLab": false
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "courseName": "dsa",
+      "teacherName": "dr ali",
+      "batchName": "sp25-c",
+      "creditHours": 3,
+      "requiresLab": true
+    },
+    {
+      "courseName": "intro psychology",
+      "teacherName": "prof aimen",
+      "batchName": "pys-23",
+      "creditHours": 2,
+      "requiresLab": false
+    },
+    {
+      "courseName": "oop",
+      "teacherName": "sir nouman",
+      "batchName": "sp25-c",
+      "creditHours": 4,
+      "requiresLab": true
+    },
+    {
+      "courseName": "pf",
+      "teacherName": "sir karim",
+      "batchName": "sp25-bcs-a",
+      "creditHours": 2,
+      "requiresLab": false
+    },
+    {
+      "courseName": "dm",
+      "teacherName": "sir samar",
+      "labTeacherName": "sir waqas",
+      "batchName": "fall23-bcs",
+      "sectionName": "B",
+      "creditHours": 3,
+      "requiresLab": true
+    }
+  ],
+  "repeaterStudents": []
+}
